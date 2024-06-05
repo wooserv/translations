@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'name' => 'Marketplace',
+    'name' => 'Store',
     'email' => [
         'store_new_order_title' => 'Avis sur la nouvelle commande',
         'store_new_order_description' => 'Envoi d\'un courriel au propriétaire du magasin lorsqu\'une commande est passée',
@@ -39,7 +39,7 @@ return [
         'add_new' => 'Ajouter un nouveau',
     ],
     'theme_options' => [
-        'name' => 'Marketplace',
+        'name' => 'Store',
         'description' => 'Options du thème pour la place de marché',
         'logo_vendor_dashboard' => 'Logo dans le tableau de bord du vendeur (par défaut, le logo principal)',
     ],

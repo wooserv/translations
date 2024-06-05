@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'name' => 'Marketplace',
+    'name' => 'Store',
     'email' => [
         'store_new_order_title' => 'Notice about new order',
         'store_new_order_description' => 'Send email to the store owner when an order placed',
@@ -19,7 +19,7 @@ return [
     'current_balance' => 'Current balance',
     'settings' => [
         'name' => 'Settings',
-        'title' => 'Settings for marketplace',
+        'title' => 'Settings for store',
         'description' => '',
         'fee_per_order' => 'Fee per order (%), suggest: 2 or 3',
         'fee_withdrawal' => 'Fee withdrawal (Fixed amount)',
@@ -29,8 +29,8 @@ return [
         'hide_store_phone_number' => 'Hide store phone number?',
     ],
     'theme_options' => [
-        'name' => 'Marketplace',
-        'description' => 'Theme options for Marketplace',
+        'name' => 'Store',
+        'description' => 'Theme options for Store',
         'logo_vendor_dashboard' => 'Logo in the vendor dashboard (Default is the main logo)',
     ],
     'store_name' => 'Store name',

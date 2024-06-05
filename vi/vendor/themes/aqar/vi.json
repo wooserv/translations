@@ -239,7 +239,7 @@
     "If you are the administrator and you can't access your site after enabling maintenance mode, just need to delete file <strong>storage/framework/down</strong> to turn-off maintenance mode.": "Nếu bạn là quản trị viên và không thể truy cập trang web của mình sau khi bật chế độ bảo trì, bạn chỉ cần xóa tệp <strong>storage/framework/down</strong> để tắt chế độ bảo trì.",
     "If you need help, contact us at :mail.": "Nếu bạn cần giúp đỡ, hãy liên hệ qua :mail.",
     "Image": "Hình ảnh",
-    "Install plugin from Marketplace": "Cài đặt plugin từ Marketplace",
+    "Install plugin from the store": "Cài đặt plugin từ store",
     "Internal Server Error": "Lỗi máy chủ nội bộ",
     "Intro About Us": "Giới thiệu về chúng tôi",
     "Invalid Data!": "Dữ liệu không hợp lệ!",

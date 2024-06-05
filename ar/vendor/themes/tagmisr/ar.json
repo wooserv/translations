@@ -228,7 +228,7 @@
     "If you are the administrator and you can't access your site after enabling maintenance mode, just need to delete file <strong>storage/framework/down</strong> to turn-off maintenance mode.": "إذا كنت المسؤول ولا تستطيع الوصول إلى موقعك بعد تمكين وضع الصيانة، فقط قم بحذف الملف <strong>storage/framework/down</strong> لإيقاف وضع الصيانة.",
     "If you need help, contact us at :mail.": "إذا كنت بحاجة إلى مساعدة، اتصل بنا على :mail.",
     "Image": "الصورة",
-    "Install plugin from Marketplace": "تثبيت البرنامج المساعد من السوق",
+    "Install plugin from the store": "تثبيت البرنامج المساعد من السوق",
     "Internal Server Error": "خطأ داخلي في الخادم",
     "Intro About Us": "مقدمة عنا",
     "Invalid Data!": "بيانات غير صالحة!",

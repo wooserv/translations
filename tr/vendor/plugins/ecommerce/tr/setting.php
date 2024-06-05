@@ -235,9 +235,9 @@ return [
             'google_tag_manager_code' => 'Google Tag Manager code',
         ],
     ],
-    'marketplace' => [
-        'name' => 'Marketplace',
-        'description' => 'View and update marketplace settings',
+    'store' => [
+        'name' => 'Store',
+        'description' => 'View and update store settings',
     ],
     'standard_and_format' => [
         'name' => 'Standard & Format',

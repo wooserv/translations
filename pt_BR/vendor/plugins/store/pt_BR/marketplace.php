@@ -9,11 +9,11 @@ return [
         'products_count' => 'Contagem de produtos',
     ],
     'theme_options' => [
-        'name' => 'Marketplace',
+        'name' => 'Store',
     ],
     'settings' => [
         'name' => 'Definições',
-        'title' => 'Definições para o marketplace',
+        'title' => 'Definições para o store',
         'hide_store_phone_number' => 'Ocultar telefone da loja?',
         'enable_product_approval' => 'Permitir aprovação do produto',
         'fee_withdrawal' => 'Taxa de saque (Valor fixo)',
@@ -21,7 +21,7 @@ return [
         'fee_per_order' => 'Taxa por pedido (%)',
         'check_valid_signature' => 'Verificar assinatura do válida nos ganhos do vendedor',
     ],
-    'name' => 'Marketplace',
+    'name' => 'Store',
     'email' => [
         'withdrawal_approved_title' => 'Saque aprovado',
         'verify_vendor_title' => 'Verificar vendedor',

@@ -6,7 +6,7 @@ return [
     'of' => 'من',
     'results' => 'النتائج',
     'add_new' => 'إضافة جديد',
-    'view_on_marketplace' => 'عرض على المتجر',
+    'view_on_store' => 'عرض على المتجر',
     'author' => 'المؤلف',
     'downloads' => 'التنزيلات',
     'version' => 'الإصدار',
