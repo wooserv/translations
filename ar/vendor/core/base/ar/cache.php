@@ -1,33 +1,34 @@
 <?php
 
 return [
-    'cache_management' => 'Cache management',
-    'cache_commands' => 'Clear cache commands',
+    'cache_management' => 'إدارة الذاكرة المؤقتة',
+    'cache_management_description' => 'مسح الذاكرة المؤقتة لجعل موقعك حديثًا.',
+    'cache_commands' => 'أوامر مسح الذاكرة المؤقتة',
     'commands' => [
         'clear_cms_cache' => [
-            'title' => 'Clear all CMS cache',
-            'description' => 'Clear CMS caching: database caching, static blocks... Run this command when you don\'t see the changes after updating data.',
-            'success_msg' => 'Cache cleaned',
+            'title' => 'مسح جميع ذاكرة التخزين المؤقت للنظام إدارة المحتوى',
+            'description' => 'مسح ذاكرة التخزين المؤقت للنظام: تخزين قاعدة البيانات، الكتل الثابتة... قم بتشغيل هذا الأمر عندما لا ترى التغييرات بعد تحديث البيانات.',
+            'success_msg' => 'تم مسح الذاكرة المؤقتة',
         ],
         'refresh_compiled_views' => [
-            'title' => 'Refresh compiled views',
-            'description' => 'Clear compiled views to make views up to date.',
-            'success_msg' => 'Cache view refreshed',
+            'title' => 'تحديث العروض المترجمة',
+            'description' => 'مسح العروض المترجمة لجعل العروض حديثة.',
+            'success_msg' => 'تم تحديث ذاكرة التخزين المؤقت للعروض',
         ],
         'clear_config_cache' => [
-            'title' => 'Clear config cache',
-            'description' => 'You might need to refresh the config caching when you change something on production environment.',
-            'success_msg' => 'Config cache cleaned',
+            'title' => 'مسح ذاكرة التخزين المؤقت للتكوين',
+            'description' => 'قد تحتاج إلى تحديث تخزين التكوين عندما تغير شيئًا على بيئة الإنتاج.',
+            'success_msg' => 'تم تنظيف ذاكرة التخزين المؤقت للتكوين',
         ],
         'clear_route_cache' => [
-            'title' => 'Clear route cache',
-            'description' => 'Clear cache routing.',
-            'success_msg' => 'The route cache has been cleaned',
+            'title' => 'مسح ذاكرة تخزين التوجيه',
+            'description' => 'مسح ذاكرة التخزين المؤقت للتوجيه.',
+            'success_msg' => 'تم مسح ذاكرة تخزين التوجيه',
         ],
         'clear_log' => [
-            'title' => 'Clear log',
-            'description' => 'Clear system log files',
-            'success_msg' => 'The system log has been cleaned',
+            'title' => 'مسح السجل',
+            'description' => 'مسح ملفات سجل النظام',
+            'success_msg' => 'تم تنظيف سجل النظام',
         ],
     ],
 ];

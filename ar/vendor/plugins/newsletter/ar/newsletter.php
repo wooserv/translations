@@ -1,31 +1,38 @@
 <?php
 
 return [
-    'name' => 'Newsletters',
+    'name' => 'النشرات الإخبارية',
+    'newsletter_form' => 'نموذج النشرات الإخبارية',
+    'description' => 'عرض وحذف مشتركي النشرة الإخبارية',
     'settings' => [
         'email' => [
             'templates' => [
-                'title' => 'Newsletter',
-                'description' => 'Config newsletter email templates',
+                'title' => 'النشرة الإخبارية',
+                'description' => 'تكوين قوالب البريد الإلكتروني للنشرة الإخبارية',
                 'to_admin' => [
-                    'title' => 'Email send to admin',
-                    'description' => 'Template for sending email to admin',
+                    'title' => 'البريد الإلكتروني المُرسل إلى المشرف',
+                    'description' => 'القالب المُرسل إلى المشرف',
                 ],
                 'to_user' => [
-                    'title' => 'Email send to user',
-                    'description' => 'Template for sending email to subscriber',
+                    'title' => 'البريد الإلكتروني المُرسل إلى المشترك',
+                    'description' => 'القالب المُرسل إلى المشترك',
                 ],
             ],
         ],
-        'title' => 'Newsletter',
-        'description' => 'Settings for newsletter',
-        'mailchimp_api_key' => 'Mailchimp API Key',
-        'mailchimp_list_id' => 'Mailchimp List ID',
-        'sendgrid_api_key' => 'Sendgrid API Key',
-        'sendgrid_list_id' => 'Sendgrid List ID',
+        'title' => 'النشرة الإخبارية',
+        'panel_description' => 'عرض وتحديث إعدادات النشرة الإخبارية',
+        'description' => 'إعدادات النشرة الإخبارية (إرسال النشرة الإخبارية تلقائيًا إلى SendGrid، Mailchimp... عندما يسجل شخص ما في النشرة الإخبارية على الموقع).',
+        'mailchimp_api_key' => 'مفتاح Mailchimp API',
+        'mailchimp_list_id' => 'معرّف قائمة Mailchimp',
+        'mailchimp_list' => 'قائمة Mailchimp',
+        'sendgrid_api_key' => 'مفتاح Sendgrid API',
+        'sendgrid_list_id' => 'معرّف قائمة Sendgrid',
+        'sendgrid_list' => 'قائمة Sendgrid',
+        'enable_newsletter_contacts_list_api' => 'تمكين واجهة برمجة تطبيقات قائمة جهات الاتصال في النشرة الإخبارية؟',
     ],
     'statuses' => [
-        'subscribed' => 'Subscribed',
-        'unsubscribed' => 'Unsubscribed',
+        'subscribed' => 'مشترك',
+        'unsubscribed' => 'غير مشترك',
     ],
 ];
+

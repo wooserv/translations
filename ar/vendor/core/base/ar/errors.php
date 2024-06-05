@@ -1,24 +1,14 @@
 <?php
 
 return [
-    '401_title' => 'Permission Denied',
-    '401_msg' => '<li>You have not been granted access to the section by the administrator.</li>'."\n"
-        .'	                <li>You may have the wrong account type.</li>'."\n"
-        .'	                <li>You are not authorized to view the requested resource.</li>'."\n"
-        .'	                <li>Your subscription may have expired.</li>',
-    '404_title' => 'Page could not be found',
-    '404_msg' => '<li>The page you requested does not exist.</li>'."\n"
-        .'	                <li>The link you clicked is no longer.</li>'."\n"
-        .'	                <li>The page may have moved to a new location.</li>'."\n"
-        .'	                <li>An error may have occurred.</li>'."\n"
-        .'	                <li>You are not authorized to view the requested resource.</li>',
-    '500_title' => 'Page could not be loaded',
-    '500_msg' => '<li>The page you requested does not exist.</li>'."\n"
-        .'	                <li>The link you clicked is no longer.</li>'."\n"
-        .'	                <li>The page may have moved to a new location.</li>'."\n"
-        .'	                <li>An error may have occurred.</li>'."\n"
-        .'	                <li>You are not authorized to view the requested resource.</li>',
-    'reasons' => 'This may have occurred because of several reasons',
-    'try_again' => 'Please try again in a few minutes, or alternatively return to the homepage by <a href="http://martfury.local/admin">clicking here</a>.',
-    'not_found' => 'Not Found',
+    '401_title' => 'تم رفض الإذن',
+    '404_title' => 'تعذر العثور على الصفحة',
+    '500_title' => 'تعذر تحميل الصفحة',
+    'reasons' => 'قد يكون ذلك بسبب عدة أسباب',
+    'try_again' => 'يرجى المحاولة مرة أخرى في بضع دقائق، أو العودة إلى الصفحة الرئيسية عن طريق <a href=":link">النقر هنا</a>.',
+    'not_found' => 'غير موجود',
+    'results_not_found' => 'لم يتم العثور على نتائج!',
+    'go_to_home' => 'الذهاب إلى الصفحة الرئيسية',
+    'error_when_sending_email' => 'تعذر إرسال البريد الإلكتروني. هناك خطأ في إعدادات البريد الإلكتروني في الإدارة → الإعدادات → البريد الإلكتروني، يرجى التحقق من إعداداتك مرة أخرى.',
+    'error_when_sending_email_guest' => 'تعذر إرسال البريد الإلكتروني. يرجى الاتصال بمسؤول الموقع إذا استمرت المشكلة.',
 ];

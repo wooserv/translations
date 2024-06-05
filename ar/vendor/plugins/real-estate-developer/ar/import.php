@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'choose_file' => 'اختر ملف',
+    'choose_file_description' => 'اختر ملف بصيغ: :types.',
+    'import_success_message' => 'تم الاستيراد بنجاح.',
+    'import_failed_message' => 'فشل الاستيراد، يرجى التحقق من الأخطاء أدناه!',
+    'row' => 'الصف',
+    'attribute' => 'السمة',
+    'errors' => 'الأخطاء',
+    'failures' => 'الفشل',
+    'results' => 'النتائج: :success نجاح, :failed فشل',
+    'rules' => 'القواعد',
+    'column' => 'العمود',
+    'template' => 'نموذج عينة',
+    'download_csv_file' => 'تحميل ملف CSV',
+    'download_excel_file' => 'تحميل ملف Excel',
+    'downloading' => 'جار التحميل',
+    'uploading' => 'جار الرفع...',
+    'validating' => 'جار التحقق...',
+    'importing' => 'جار الاستيراد...',
+    'importing_message' => 'جار الاستيراد من :from إلى :to',
+    'validating_message' => 'جار التحقق من :from إلى :to',
+    'total_rows' => 'لقد قمت بتصدير :total صف بنجاح!',
+    'imported_successfully' => 'تم استيراد الخصائص بنجاح!',
+];

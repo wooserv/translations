@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'dob' => 'Born :date',
-    'draft_posts' => 'Draft Posts',
-    'pending_posts' => 'Pending Posts',
-    'published_posts' => 'Published Posts',
-    'posts' => 'Posts',
-    'write_post' => 'Write a post',
+    'dob' => 'ولد في :date',
+    'draft_posts' => 'المشاركات المسودة',
+    'pending_posts' => 'المشاركات المعلقة',
+    'published_posts' => 'المشاركات المنشورة',
+    'posts' => 'المشاركات',
+    'write_post' => 'اكتب مشاركة',
 ];
